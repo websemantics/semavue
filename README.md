@@ -18,17 +18,17 @@
 SemaVue is built on the original concept of Web Components explained in [vuestrap](https://github.com/kzima/vuestrap). The following diagram presents information regarding Semantic-ui components instead of Bootstrap.
 
 ```
-┌────────────────┐   ┌─────────────────────┐   ┌─────────────────────┐
-|   Application  |   |      Component      |   |       SemaVue       |
-│┌──────────────┐│   │┌───────────────────┐│   │┌───────────────────┐│
-|| - theme      ||   || - js, html & less ||   || - components      ||
-|| - layout     ||   || - docs            ||   || - core styling    ||
-|| - components ||   || - accessibility   ||   || - semantic theme  ||
-||              ||   || - responsive      ||   ||                   ||
-||              ||   || - test            ||   ||                   ||
-||              ||   ||                   ||   ||                   ||
-│└──────────────┘│   │└───────────────────┘│   │└───────────────────┘│
-└────────────────┘   └─────────────────────┘   └─────────────────────┘
+┌─────────────────┐       ┌──────────────────────┐       ┌─────────────────────┐
+|   Application   |       |      Component       |       |       SemaVue       |
+│┌───────────────┐│       │┌────────────────────┐│       │┌───────────────────┐│
+|| - theme       ||       || - js, html & less  ||       || - components      ||
+|| - layout      ||       || - docs             ||       || - core styling    ||
+|| - components  |├──────>|| - accessibility    |├──────>|| - semantic theme  ||
+||               ||       || - responsive       ||       ||                   ||
+||               ||       || - test             ||       ||                   ||
+||               ||       ||                    ||       ||                   ||
+│└───────────────┘│       │└────────────────────┘│       │└───────────────────┘│
+└─────────────────┘       └──────────────────────┘       └─────────────────────┘
 ```
 
 
