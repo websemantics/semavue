@@ -34,6 +34,5 @@ SemaVue is built on the original concept of Web Components explained in [vuestra
 
 
 
-Based on vuestrap (https://github.com/kzima/vuestrap) concept of Web Components, SemaVue
 ## Credits
 This project is built with [Vue-Strap](https://github.com/yuche/vue-strap).
