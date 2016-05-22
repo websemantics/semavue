@@ -13,6 +13,27 @@
 ```
 > Semantic-ui components built with pure Vue.js
 
+## Web Components
 
+SemaVue is built on the original concept of Web Components explained in [vuestrap](https://github.com/kzima/vuestrap). The following diagram presents information regarding Semantic-ui components instead of Bootstrap.
+
+```
+┌────────────────┐   ┌─────────────────────┐   ┌─────────────────────┐
+|   Application  |   |      Component      |   |       SemaVue       |
+│┌──────────────┐│   │┌───────────────────┐│   │┌───────────────────┐│
+|| - theme      ||   || - js, html & less ||   || - components      ||
+|| - layout     ||   || - docs            ||   || - core styling    ||
+|| - components ||   || - accessibility   ||   || - semantic theme  ||
+||              ||   || - responsive      ||   ||                   ||
+||              ||   || - test            ||   ||                   ||
+||              ||   ||                   ||   ||                   ||
+│└──────────────┘│   │└───────────────────┘│   │└───────────────────┘│
+└────────────────┘   └─────────────────────┘   └─────────────────────┘
+```
+
+
+
+
+Based on vuestrap (https://github.com/kzima/vuestrap) concept of Web Components, SemaVue
 ## Credits
 This project is built with [Vue-Strap](https://github.com/yuche/vue-strap).
