@@ -15,22 +15,23 @@
 
 ## Web Components
 
-SemaVue is built on the original concept of Web Components explained in [vuestrap](https://github.com/kzima/vuestrap). The following diagram presents information regarding Semantic-ui components instead of Bootstrap.
+SemaVue employs the concept of Web Components to build an extensible library of UI widgets by wrapping Semantic-ui elements in javascript, html and css / less styles.
 
 ```
-┌─────────────────┐       ┌──────────────────────┐       ┌─────────────────────┐
-|   Application   |       |      Component       |       |       SemaVue       |
-│┌───────────────┐│       │┌────────────────────┐│       │┌───────────────────┐│
-|| - theme       ||       || - js, html & less  ||       || - components      ||
-|| - layout      ||       || - docs             ||       || - core styling    ||
-|| - components  |├──────>|| - accessibility    |├──────>|| - semantic theme  ||
-||               ||       || - responsive       ||       ||                   ||
-||               ||       || - test             ||       ||                   ||
-||               ||       ||                    ||       ||                   ||
-│└───────────────┘│       │└────────────────────┘│       │└───────────────────┘│
-└─────────────────┘       └──────────────────────┘       └─────────────────────┘
+┌────────────────────────┐       ┌──────────────────────┐       ┌─────────────────┐
+│         SemaVue        │       │      Component       │       │   Application   │
+│┌──────────────────────┐│       │┌────────────────────┐│       │┌───────────────┐│
+││ - Components         ││       ││ - Js, html & less  ││       ││ - Theme       ││
+││ - Core styling       ││       ││ - Docs             ││       ││ - Layout      ││
+││ - Semantic-ui theme  │├──────>││ - Accessibility    │├──────>││ - Components  ││
+││                      ││       ││ - Responsive       ││       ││               ││
+││                      ││       ││ - Test             ││       ││               ││
+││                      ││       ││                    ││       ││               ││
+│└──────────────────────┘│       │└────────────────────┘│       │└───────────────┘│
+└────────────────────────┘       └──────────────────────┘       └─────────────────┘
 ```
 
+Components can be stored in a repository as a group or indivisually. Each repository will have documentations, markup, logic, styling and test code for all components.
 
 ## Credits
-This project is inspired heavily / built on top of [vuestrap](https://github.com/kzima/vuestrap).
+This project is inspired heavily from [vuestrap](https://github.com/kzima/vuestrap) and [Vue-Strap](https://github.com/yuche/vue-strap).
