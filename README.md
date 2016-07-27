@@ -33,5 +33,13 @@ SemaVue employs the concept of Web Components to build an extensible library of 
 
 Components can be stored in a repository as a group or indivisually. Each repository will have documentations, markup, logic, styling and test code for all components.
 
-## Credits
-This project is inspired heavily from [vuestrap](https://github.com/kzima/vuestrap) and [Vue-Strap](https://github.com/yuche/vue-strap).
+## Inspiration
+
+From Vue and React worlds
+
+- [vuestrap](https://github.com/kzima/vuestrap)
+- [Vue-Strap](https://github.com/yuche/vue-strap).
+- [Ant.Design Vue](http://okoala.github.io/vue-antd)
+- [Ant.Design React](http://ant.design/docs/react/introduce)
+- [Semantic React](http://hallister.github.io/semantic-react)
+
