@@ -13,6 +13,8 @@
 ```
 > Semantic-ui components built with pure Vue.js
 
+[DEPRECATED] and has been replaced by [Key](https://github.com/cuffs/key).
+
 ## Web Components
 
 SemaVue employs the concept of Web Components to build an extensible library of UI widgets by wrapping Semantic-ui elements in javascript, html and css / less styles.
