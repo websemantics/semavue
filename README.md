@@ -13,7 +13,7 @@
 ```
 > Semantic-ui components built with pure Vue.js
 
-[DEPRECATED] and has been replaced by [Key](https://github.com/cuffs/key).
+[DEPRECATED] and has been replaced by [Kuhfskee](https://github.com/cuffs/key).
 
 ## Web Components
 
